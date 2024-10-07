@@ -1,0 +1,66 @@
+[Setup Wizard Template]
+TemplateDate=28-Dec-99 12:10:33 PM
+
+[Select Project and Options]
+txtProjFile=D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Tank.vbp
+chkProjRebuild=1
+optBldSetup=True
+chkIncludeDEP=0
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=D:\Temp\TankSetup\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,32764
+File2=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\WINDOWS\SYSTEM\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="D:\Microsoft Visual Basic\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="D:\Microsoft Visual Basic\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="D:\Microsoft Visual Basic\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="D:\Microsoft Visual Basic\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="D:\Microsoft Visual Basic\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="D:\Microsoft Visual Basic\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="D:\ProgramFiles\Tank '99\Tank99-2H.exe",True,"$(AppPath)",,False
+File10="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Camo.jfb",True,"$(AppPath)",,False
+File11="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\DIGITANK.INI",True,"$(AppPath)",,False
+File12="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\splash.wav",True,"$(AppPath)\Sound",,False
+File13="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\click.wav",False,"$(AppPath)\Sound",,False
+File14="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\end.wav",True,"$(AppPath)\Sound",,False
+File15="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\fire0.wav",True,"$(AppPath)\Sound",,False
+File16="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\formload.wav",True,"$(AppPath)\Sound",,False
+File17="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\launch0.wav",True,"$(AppPath)\Sound",,False
+File18="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\negative.wav",True,"$(AppPath)\Sound",,False
+File19="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\score0.wav",True,"$(AppPath)\Sound",,False
+File20="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\blast0.wav",True,"$(AppPath)\Sound",,False
+File21="D:\Microsoft Visual Basic\1999 Projects\Tank '99-2H\Sound\tick.wav",True,"$(AppPath)\Sound",,False
